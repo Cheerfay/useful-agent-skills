@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-07-28",
+  "skills": [
+    {
+      "name": "frontend-design",
+      "category": "frontend-design",
+      "repository": "anthropics/skills",
+      "path": "skills/frontend-design",
+      "status": "installed",
+      "notes": "Distinctive visual direction; framework agnostic."
+    },
+    {
+      "name": "redesign-existing-projects",
+      "category": "frontend-design",
+      "repository": "Leonxlnx/taste-skill",
+      "path": "skills/redesign-skill",
+      "status": "tested",
+      "notes": "Audit-first redesign for existing projects."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "category": "frontend-design",
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "path": ".claude/skills/ui-ux-pro-max",
+      "status": "candidate",
+      "notes": "Searchable UI/UX database; Codex path compatibility needs review."
+    },
+    {
+      "name": "impeccable",
+      "category": "frontend-design",
+      "repository": "pbakaus/impeccable",
+      "path": "skill",
+      "status": "candidate",
+      "notes": "Comprehensive design workflow; requires harness-aware installation."
+    },
+    {
+      "name": "playwright",
+      "category": "visual-testing",
+      "repository": "openai/skills",
+      "path": "skills/.curated/playwright",
+      "status": "candidate"
+    },
+    {
+      "name": "screenshot",
+      "category": "visual-testing",
+      "repository": "openai/skills",
+      "path": "skills/.curated/screenshot",
+      "status": "candidate"
+    },
+    {
+      "name": "figma-generate-design",
+      "category": "design-tools",
+      "repository": "openai/skills",
+      "path": "skills/.curated/figma-generate-design",
+      "status": "candidate"
+    },
+    {
+      "name": "figma-implement-design",
+      "category": "design-tools",
+      "repository": "openai/skills",
+      "path": "skills/.curated/figma-implement-design",
+      "status": "candidate"
+    },
+    {
+      "name": "figma-create-design-system-rules",
+      "category": "design-tools",
+      "repository": "openai/skills",
+      "path": "skills/.curated/figma-create-design-system-rules",
+      "status": "candidate"
+    }
+  ]
+}
