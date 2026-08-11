@@ -1,72 +1,114 @@
 {
-  "updatedAt": "2026-07-28",
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-12",
   "skills": [
     {
       "name": "frontend-design",
       "category": "frontend-design",
       "repository": "anthropics/skills",
-      "path": "skills/frontend-design",
-      "status": "installed",
-      "notes": "Distinctive visual direction; framework agnostic."
+      "repositoryUrl": "https://github.com/anthropics/skills",
+      "sourcePath": "skills/frontend-design",
+      "license": "not-detected",
+      "status": "verified",
+      "compatibility": ["codex"],
+      "lastChecked": "2026-08-12",
+      "notes": "Distinctive visual direction; framework agnostic. Confirm upstream terms before copying source."
     },
     {
       "name": "redesign-existing-projects",
       "category": "frontend-design",
       "repository": "Leonxlnx/taste-skill",
-      "path": "skills/redesign-skill",
-      "status": "tested",
-      "notes": "Audit-first redesign for existing projects."
+      "repositoryUrl": "https://github.com/Leonxlnx/taste-skill",
+      "sourcePath": "skills/redesign-skill",
+      "license": "MIT",
+      "status": "verified",
+      "compatibility": ["codex"],
+      "lastChecked": "2026-08-12",
+      "notes": "Audit-first redesign for existing projects; marketing-oriented advice requires product-specific judgment."
     },
     {
       "name": "ui-ux-pro-max",
       "category": "frontend-design",
       "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "path": ".claude/skills/ui-ux-pro-max",
+      "repositoryUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourcePath": ".claude/skills/ui-ux-pro-max",
+      "license": "MIT",
       "status": "candidate",
-      "notes": "Searchable UI/UX database; Codex path compatibility needs review."
+      "compatibility": ["claude"],
+      "lastChecked": "2026-08-12",
+      "notes": "Searchable UI/UX database; Codex path and workflow compatibility still need review."
     },
     {
       "name": "impeccable",
       "category": "frontend-design",
       "repository": "pbakaus/impeccable",
-      "path": "skill",
+      "repositoryUrl": "https://github.com/pbakaus/impeccable",
+      "sourcePath": "skill",
+      "license": "Apache-2.0",
       "status": "candidate",
+      "compatibility": ["agent-skill"],
+      "lastChecked": "2026-08-12",
       "notes": "Comprehensive design workflow; requires harness-aware installation."
     },
     {
       "name": "playwright",
       "category": "visual-testing",
       "repository": "openai/skills",
-      "path": "skills/.curated/playwright",
-      "status": "candidate"
+      "repositoryUrl": "https://github.com/openai/skills",
+      "sourcePath": "skills/.curated/playwright",
+      "license": "not-detected",
+      "status": "candidate",
+      "compatibility": ["codex"],
+      "lastChecked": "2026-08-12",
+      "notes": "Confirm upstream terms before copying source."
     },
     {
       "name": "screenshot",
       "category": "visual-testing",
       "repository": "openai/skills",
-      "path": "skills/.curated/screenshot",
-      "status": "candidate"
+      "repositoryUrl": "https://github.com/openai/skills",
+      "sourcePath": "skills/.curated/screenshot",
+      "license": "not-detected",
+      "status": "candidate",
+      "compatibility": ["codex"],
+      "lastChecked": "2026-08-12",
+      "notes": "Confirm upstream terms before copying source."
     },
     {
       "name": "figma-generate-design",
       "category": "design-tools",
       "repository": "openai/skills",
-      "path": "skills/.curated/figma-generate-design",
-      "status": "candidate"
+      "repositoryUrl": "https://github.com/openai/skills",
+      "sourcePath": "skills/.curated/figma-generate-design",
+      "license": "not-detected",
+      "status": "candidate",
+      "compatibility": ["codex"],
+      "lastChecked": "2026-08-12",
+      "notes": "Requires an available Figma connection; confirm upstream terms before copying source."
     },
     {
       "name": "figma-implement-design",
       "category": "design-tools",
       "repository": "openai/skills",
-      "path": "skills/.curated/figma-implement-design",
-      "status": "candidate"
+      "repositoryUrl": "https://github.com/openai/skills",
+      "sourcePath": "skills/.curated/figma-implement-design",
+      "license": "not-detected",
+      "status": "candidate",
+      "compatibility": ["codex"],
+      "lastChecked": "2026-08-12",
+      "notes": "Requires an available Figma connection; confirm upstream terms before copying source."
     },
     {
       "name": "figma-create-design-system-rules",
       "category": "design-tools",
       "repository": "openai/skills",
-      "path": "skills/.curated/figma-create-design-system-rules",
-      "status": "candidate"
+      "repositoryUrl": "https://github.com/openai/skills",
+      "sourcePath": "skills/.curated/figma-create-design-system-rules",
+      "license": "not-detected",
+      "status": "candidate",
+      "compatibility": ["codex"],
+      "lastChecked": "2026-08-12",
+      "notes": "Requires an available Figma connection; confirm upstream terms before copying source."
     }
   ]
 }
