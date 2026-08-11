@@ -1,5 +1,7 @@
 {
   "schemaVersion": 1,
+  "name": "useful-agent-skills",
+  "repositoryUrl": "https://github.com/Cheerfay/useful-agent-skills",
   "updatedAt": "2026-08-12",
   "skills": [
     {

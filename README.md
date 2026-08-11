@@ -1,6 +1,6 @@
-# Codex Useful Skills
+# Useful Agent Skills
 
-面向 Codex 和其他 Agent 工具的 Skills 分类目录，记录经过来源、用途、兼容性和许可证检查，值得进一步验证或复用的 Skills。
+面向 Codex、Claude Code、Cursor 和其他 Agent 工具的 Skills 分类目录，记录经过来源、用途、兼容性和许可证检查，值得进一步验证或复用的 Skills。
 
 本仓库只收录索引和评估信息，不复制第三方 Skill 源码，也不代表对第三方脚本的安全背书。
 
