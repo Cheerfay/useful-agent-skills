@@ -18,6 +18,15 @@
 - 优点：按 Scan → Diagnose → Fix 执行，重视可审查的小步修改
 - 注意：部分面向营销网站的建议不适合工具型界面，必须结合产品目标取舍
 
+## ui-consistency-audit
+
+- 来源：`Cheerfay/useful-agent-skills`
+- 路径：`skills/ui-consistency-audit`
+- 状态：已验证，已用于真实产品改版后的跨页面一致性巡检
+- 适合：品牌换肤、主题重构、页面改版完成后的遗漏检查
+- 优点：结合确定性扫描与人工状态矩阵，覆盖旧配色、按钮、提醒、箭头、字体、间距、响应式和多语言
+- 注意：脚本输出是待审查候选，语义化成功/错误色不能机械替换
+
 ## ui-ux-pro-max
 
 - 来源：`nextlevelbuilder/ui-ux-pro-max-skill`

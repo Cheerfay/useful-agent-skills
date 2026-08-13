@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "useful-agent-skills",
   "repositoryUrl": "https://github.com/Cheerfay/useful-agent-skills",
-  "updatedAt": "2026-08-12",
+  "updatedAt": "2026-08-14",
   "skills": [
     {
       "name": "frontend-design",
@@ -27,6 +27,18 @@
       "compatibility": ["codex"],
       "lastChecked": "2026-08-12",
       "notes": "Audit-first redesign for existing projects; marketing-oriented advice requires product-specific judgment."
+    },
+    {
+      "name": "ui-consistency-audit",
+      "category": "frontend-design",
+      "repository": "Cheerfay/useful-agent-skills",
+      "repositoryUrl": "https://github.com/Cheerfay/useful-agent-skills",
+      "sourcePath": "skills/ui-consistency-audit",
+      "license": "MIT",
+      "status": "verified",
+      "compatibility": ["agent-skill", "codex", "claude", "cursor"],
+      "lastChecked": "2026-08-14",
+      "notes": "Original post-redesign audit workflow with an rg-based drift scanner; validated on a production UI rebrand."
     },
     {
       "name": "ui-ux-pro-max",
