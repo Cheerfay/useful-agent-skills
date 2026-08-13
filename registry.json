@@ -31,9 +31,9 @@
     {
       "name": "ui-consistency-audit",
       "category": "frontend-design",
-      "repository": "Cheerfay/useful-agent-skills",
-      "repositoryUrl": "https://github.com/Cheerfay/useful-agent-skills",
-      "sourcePath": "skills/ui-consistency-audit",
+      "repository": "Cheerfay/ui-consistency-audit",
+      "repositoryUrl": "https://github.com/Cheerfay/ui-consistency-audit",
+      "sourcePath": ".",
       "license": "MIT",
       "status": "verified",
       "compatibility": ["agent-skill", "codex", "claude", "cursor"],

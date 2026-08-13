@@ -2,11 +2,11 @@
 
 面向 Codex、Claude Code、Cursor 和其他 Agent 工具的实用 Skills 仓库。这里既维护经过来源、用途、兼容性和许可证检查的第三方 Skill 目录，也发布本仓库原创、可直接安装的 Skills。
 
-第三方条目只收录索引和评估信息，不复制源码，也不代表对第三方脚本的安全背书。原创 Skill 源码位于 `skills/`。
+第三方条目只收录索引和评估信息，不复制源码，也不代表对第三方脚本的安全背书。原创 Skill 源码发布在独立仓库，或在尚未拆分时保存在 `skills/`。
 
 ## 仓库内容
 
-- `skills/`：本仓库原创、可直接安装的 Skills。
+- `skills/`：尚未拆分为独立仓库的原创 Skills；成熟项目优先链接到其独立源码仓库。
 - `catalog/`：按用途整理的原创与第三方 Skill 目录。
 - `registry.json`：机器可读的来源、许可证、兼容性和验证状态。
 
@@ -37,7 +37,7 @@
 
 ### 改版完成后的收尾巡检
 
-1. `ui-consistency-audit`：扫描旧配色、重复方向提示、低对比文字和组件风格漂移。
+1. [`ui-consistency-audit`](https://github.com/Cheerfay/ui-consistency-audit)：扫描旧配色、重复方向提示、低对比文字和组件风格漂移。
 2. 浏览器控制或 Playwright：覆盖桌面、移动端、多语言和交互状态。
 3. 项目构建与测试：确认视觉修改没有破坏功能。
 
@@ -77,14 +77,15 @@
 
 发布原创 Skill 时同步检查：
 
-- `skills/<name>/SKILL.md` 与所需的 `agents/`、`scripts/`、`references/` 或 `assets/`。
+- 独立仓库根目录或 `skills/<name>/` 中的 `SKILL.md`，以及所需的 `agents/`、`scripts/`、`references/` 或 `assets/`。
 - README 的推荐组合或更新记录。
 - 对应的 `catalog/*.md` 分类页。
 - `registry.json` 的来源、许可证、兼容性、状态和检查日期。
-- 顶层 `LICENSE` 是否覆盖原创内容；Skill 文件夹内无需重复放置 LICENSE 或 README。
+- 源码所在仓库的顶层 `LICENSE` 是否覆盖原创内容；Skill 文件夹内无需重复放置 LICENSE 或 README。
 
 ## 更新记录
 
+- 2026-08-14：将 `ui-consistency-audit` 拆分为独立仓库，合集保留分类与推荐入口。
 - 2026-08-14：开源原创 `ui-consistency-audit` Skill，用于改版后的视觉与交互一致性巡检。
 - 2026-08-12：补充许可证、公开状态字段、安全说明和上游许可证信息。
 - 2026-07-28：建立目录；收录前端设计、视觉测试和 Figma 工作流候选项。

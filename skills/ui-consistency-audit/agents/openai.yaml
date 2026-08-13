@@ -1,4 +1,0 @@
-interface:
-  display_name: "UI Consistency Audit"
-  short_description: "Audit redesigns for visual and interaction drift"
-  default_prompt: "Use $ui-consistency-audit to audit this UI redesign for missed legacy styles and inconsistent states."

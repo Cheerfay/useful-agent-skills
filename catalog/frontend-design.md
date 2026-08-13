@@ -20,8 +20,8 @@
 
 ## ui-consistency-audit
 
-- 来源：`Cheerfay/useful-agent-skills`
-- 路径：`skills/ui-consistency-audit`
+- 来源：[`Cheerfay/ui-consistency-audit`](https://github.com/Cheerfay/ui-consistency-audit)
+- 路径：仓库根目录
 - 状态：已验证，已用于真实产品改版后的跨页面一致性巡检
 - 适合：品牌换肤、主题重构、页面改版完成后的遗漏检查
 - 优点：结合确定性扫描与人工状态矩阵，覆盖旧配色、按钮、提醒、箭头、字体、间距、响应式和多语言
