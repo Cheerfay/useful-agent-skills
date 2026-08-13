@@ -1,2 +1,11 @@
 .DS_Store
-
+.env
+.env.*
+!.env.example
+node_modules/
+.output/
+.nitro/
+data/*.db
+src/paraglide/
+src/routeTree.gen.ts
+*-debug.log

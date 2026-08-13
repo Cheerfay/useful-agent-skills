@@ -18,6 +18,15 @@
 - 优点：按 Scan → Diagnose → Fix 执行，重视可审查的小步修改
 - 注意：部分面向营销网站的建议不适合工具型界面，必须结合产品目标取舍
 
+## ux-flow-audit
+
+- 来源：[`Cheerfay/ux-flow-audit`](https://github.com/Cheerfay/ux-flow-audit)
+- 路径：仓库根目录
+- 状态：已验证，已用于真实产品首页与多步骤工具流程优化
+- 适合：页面信息过多、操作优先级不清、按钮与标签难以区分、文案或流程让用户不知道下一步做什么
+- 优点：同时检查信息层级、UX 文案、控件可识别性、反馈状态、多语言布局和端到端任务连续性
+- 注意：负责页面是否容易理解和使用，不单独定义品牌配色、字体和视觉风格
+
 ## ui-consistency-audit
 
 - 来源：[`Cheerfay/ui-consistency-audit`](https://github.com/Cheerfay/ui-consistency-audit)

@@ -12,6 +12,13 @@ Third-party source code is not copied into this repository, and inclusion is not
 - `catalog/`: human-readable collections organized by use case.
 - `registry.json`: machine-readable source, license, compatibility, and verification metadata.
 
+## Original Skills
+
+- [UX Flow Audit](https://github.com/Cheerfay/ux-flow-audit): clarify information hierarchy, UX copy, control affordance, feedback states, and end-to-end task flow.
+- [UI Consistency Audit](https://github.com/Cheerfay/ui-consistency-audit): find visual and interaction drift across pages after a redesign, with a deterministic scanner for common leftovers.
+
+Recommended sequence for a redesign: use UX Flow Audit to make the page understandable and actionable, apply the visual direction, then use UI Consistency Audit to catch missed states and related pages.
+
 ## Why third-party source is not copied
 
 - Different projects have different licenses and release schedules.
@@ -39,9 +46,11 @@ See [`registry.json`](registry.json) for the complete machine-readable registry.
 
 ### Finish a redesign with a consistency pass
 
-1. [`ui-consistency-audit`](https://github.com/Cheerfay/ui-consistency-audit): find legacy colors, duplicate direction cues, low-contrast text, and component drift.
-2. Browser control or Playwright: cover desktop, mobile, translated layouts, and interaction states.
-3. Project build and tests: confirm visual changes did not break behavior.
+1. [`ux-flow-audit`](https://github.com/Cheerfay/ux-flow-audit): clarify information priority, copy, action hierarchy, feedback, and task continuity.
+2. Apply the intended visual direction and component styling.
+3. [`ui-consistency-audit`](https://github.com/Cheerfay/ui-consistency-audit): find legacy colors, duplicate direction cues, low-contrast text, and component drift.
+4. Browser control or Playwright: cover desktop, mobile, translated layouts, and interaction states.
+5. Project build and tests: confirm visual changes did not break behavior.
 
 ### Design a new page from scratch
 
@@ -87,6 +96,7 @@ When publishing an original Skill, check:
 
 ## Recent updates
 
+- 2026-08-14: published the original `ux-flow-audit` Skill and documented the recommended UX-flow-to-consistency workflow.
 - 2026-08-14: moved `ui-consistency-audit` to a standalone repository while keeping catalog and workflow links here.
 - 2026-08-14: published the original `ui-consistency-audit` Skill for post-redesign visual and interaction audits.
 - 2026-08-12: added licensing, publication status, security guidance, and upstream license details.

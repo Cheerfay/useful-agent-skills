@@ -29,6 +29,18 @@
       "notes": "Audit-first redesign for existing projects; marketing-oriented advice requires product-specific judgment."
     },
     {
+      "name": "ux-flow-audit",
+      "category": "frontend-design",
+      "repository": "Cheerfay/ux-flow-audit",
+      "repositoryUrl": "https://github.com/Cheerfay/ux-flow-audit",
+      "sourcePath": ".",
+      "license": "MIT",
+      "status": "verified",
+      "compatibility": ["agent-skill", "codex", "claude", "cursor"],
+      "lastChecked": "2026-08-14",
+      "notes": "Original UX hierarchy and task-flow audit workflow; validated on a bilingual production tool redesign."
+    },
+    {
       "name": "ui-consistency-audit",
       "category": "frontend-design",
       "repository": "Cheerfay/ui-consistency-audit",

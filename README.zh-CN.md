@@ -12,6 +12,13 @@
 - `catalog/`：按用途整理的原创与第三方 Skill 目录。
 - `registry.json`：机器可读的来源、许可证、兼容性和验证状态。
 
+## 原创 Skills
+
+- [UX Flow Audit](https://github.com/Cheerfay/ux-flow-audit)：优化信息层级、UX 文案、控件可识别性、反馈状态与完整任务流程。
+- [UI Consistency Audit](https://github.com/Cheerfay/ui-consistency-audit)：在改版后检查跨页面的视觉与交互漂移，并通过确定性扫描寻找常见遗漏。
+
+推荐的改版顺序：先用 UX Flow Audit 让页面更容易理解和操作，完成视觉方向后，再用 UI Consistency Audit 检查遗漏状态与相关页面。
+
 ## 为什么不复制第三方源码
 
 - 第三方 Skill 的许可证和更新节奏不同。
@@ -39,9 +46,11 @@
 
 ### 改版完成后的收尾巡检
 
-1. [`ui-consistency-audit`](https://github.com/Cheerfay/ui-consistency-audit)：扫描旧配色、重复方向提示、低对比文字和组件风格漂移。
-2. 浏览器控制或 Playwright：覆盖桌面、移动端、多语言和交互状态。
-3. 项目构建与测试：确认视觉修改没有破坏功能。
+1. [`ux-flow-audit`](https://github.com/Cheerfay/ux-flow-audit)：理顺信息优先级、文案、操作层级、反馈和任务连续性。
+2. 完成预期的视觉方向和组件样式。
+3. [`ui-consistency-audit`](https://github.com/Cheerfay/ui-consistency-audit)：扫描旧配色、重复方向提示、低对比文字和组件风格漂移。
+4. 浏览器控制或 Playwright：覆盖桌面、移动端、多语言和交互状态。
+5. 项目构建与测试：确认视觉修改没有破坏功能。
 
 ### 从零设计新页面
 
@@ -87,6 +96,7 @@
 
 ## 更新记录
 
+- 2026-08-14：开源原创 `ux-flow-audit` Skill，并补充从 UX 流程审计到一致性巡检的推荐工作流。
 - 2026-08-14：将 `ui-consistency-audit` 拆分为独立仓库，合集保留分类与推荐入口。
 - 2026-08-14：开源原创 `ui-consistency-audit` Skill，用于改版后的视觉与交互一致性巡检。
 - 2026-08-12：补充许可证、公开状态字段、安全说明和上游许可证信息。
